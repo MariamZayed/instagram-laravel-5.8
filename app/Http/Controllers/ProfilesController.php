@@ -10,6 +10,6 @@ class ProfilesController extends Controller
     public function index($user)
     {
         dd(User::find($user));
-        //return view('');
+        return view('');
     }
 }
